@@ -7,7 +7,7 @@
 <body>
   <h1>🚀 My Full Stack App</h1>
 
-  <h2>📝 About This Course</h2>
+  <h2>📝 About My Project</h2>
   <p>
     This is a full-stack application built using modern web development technologies. The app utilizes the following tech stack:
   </p>
