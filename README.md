@@ -47,7 +47,6 @@ npm install</code></pre>
     <ul>
       <li><strong>MONGODB_URI</strong>: Your MongoDB connection string.</li>
       <li><strong>PORT</strong>: The port your backend will run on (default: 5000).</li>
-      <li><strong>JWT_SECRET</strong>: A secret key for JWT authentication (for security).</li>
     </ul>
   </ul>
 
