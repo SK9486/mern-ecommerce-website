@@ -63,5 +63,9 @@ npm install</code></pre>
   <p>Thanks to the <strong>React</strong>, <strong>Node.js</strong>, and <strong>Chakra UI</strong> communities for creating amazing tools and frameworks! 💻</p>
 
 </body>
+<<<<<<< HEAD
 </html>"# mern-ecommerce-website" 
 "# mern-ecommerce-website" 
+=======
+</html>
+>>>>>>> f8f64d44df0dcfc424b815b3df1ad4fcdbaf6349
