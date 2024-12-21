@@ -29,8 +29,8 @@
 
   <h2>⚡️ Installation</h2>
   <h3>1. Clone the Repository</h3>
-  <pre><code>git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name</code></pre>
+  <pre><code>git clone https://github.com/SK9486/mern-ecommerce-website.git
+cd mern-ecommerce-website</code></pre>
 
   <h3>2. Install Backend Dependencies</h3>
   <pre><code>cd backend
