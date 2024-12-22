@@ -1,15 +1,21 @@
-const mongoose = require('mongoose');
-require('dotenv').config();
+import mongoose from "mongoose";
+import dotenv from "dotenv";
 
-const dbURI = process.env.MONGO_URI;
+dotenv.config(); // Load environment variables
 
-const connectDB = () => {
-  mongoose.connect(dbURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  })
-    .then(() => console.log("Connected to MongoDB"))
-    .catch(err => console.error("Error connecting to MongoDB:", err));
+const dbURI = process.env.MONGODB_URI;
+
+if (!dbURI) {
+  console.error("Error: MONGODB_URI is not defined in the environment variables.");
+  process.exit(1);
+}
+
+export const connectDB = async () => {
+  try {
+    await mongoose.connect(dbURI); // No options needed for modern Mongoose
+    console.log("Connected to MongoDB");
+  } catch (error) {
+    console.error("Error connecting to MongoDB:", error);
+    process.exit(1); // Exit process with failure
+  }
 };
-
-module.exports = { connectDB };  // CommonJS export
