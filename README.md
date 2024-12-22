@@ -55,8 +55,8 @@ npm install</code></pre>
   <pre><code>cd backend</code>
   <code>npm run dev</code></pre>
   <h3>2. Start the Frontend Application:</h3>
-  <pre><code>cd frountend</code>
-  <code>npm run dev</code></pre>
+  <pre><code>cd frountend
+  npm run dev</code></pre>
 
   <h2>📜 License</h2>
   <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
