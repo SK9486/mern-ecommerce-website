@@ -52,9 +52,11 @@ npm install</code></pre>
 
   <h2>🚀 Run the Application</h2>
   <h3>1. Start the Backend Server:</h3>
-  <pre><code>npm start</code></pre>
+  <pre><code>cd backend</code>
+  <code>npm run dev</code></pre>
   <h3>2. Start the Frontend Application:</h3>
-  <pre><code>npm start</code></pre>
+  <pre><code>cd frountend</code>
+  <code>npm run dev</code></pre>
 
   <h2>📜 License</h2>
   <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
